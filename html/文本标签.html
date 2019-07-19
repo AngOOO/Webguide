@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+<!--标题标签-->
+<h1>标题<h1>
+<h2>标题<h2>
+<h3>标题<h3>
+<h4>标题<h4>
+<h5>标题<h5>
+<h6>标题<h6>
+<!--水平线-->
+<hr />
+<address>陕西省西安市</address>
+<code>public static void main(){}</code><br />
+		
+<p>
+床前明月光，
+疑是地上霜。
+</p>
+		
+<!--滚动标签：
+		常用属性
+				--behavior：滚动方式
+					alternate：来回滚动
+					scroll：交替滚动、默认值
+					slide：滚到一边结束
+				--scrollamount：滚动速度：正整数（值越大越快）
+				--loop：滚动次数
+				--bgcolor：背景色（是标签的背景属性）
+				--direction：滚动方向（默认值 left：由右向左）
+-->
+<marquee behavior="alternate" loop="3" scrollamount="25" bgcolor="blanchedalmond" direction="right">我爱学习</marquee>
+<!--段落缩进：
+		blockqyote：引用标签
+-->
+<blockquote>段落缩进</blockquote>
+		
+<font color="cornflowerblue" size="4">字体标签</font><br />
+<strong>字体加粗</strong><br />
+<em>斜体</em><br />
+<!--
+	上下标：sup、sub
+        	应用场景：页面底部版权所有和注册商标
+-->
+X<sup>2</sup><br />
+H<sub>2</sub>O<br />
+<!--pre：原样输出-->
+<pre>
+public static void main(String[] args){
+	System.out.println("good!");
+}
+</pre>
+<!--列表：
+		无序列表ul
+			属性：type（指定li前面的标记项，默认值dusc）
+-->
+<ul>
+	<li type="circle">足球</li>
+	<li>篮球</li>
+	<li>排球</li>
+</ul>
+<!--有序列表：
+		ol	type="1"
+			li
+-->
+今天的作业：
+<ol type="1">
+	<li>完成练习册</li>
+	<li>背单词</li>
+	<li>背课文</li>
+</ol>
+		
+<!--块标签
+		布局：
+			table：表格布局
+			div+css：层级布局（div占一行）
+-->
+<div>div1</div>
+<div>div2</div>
+<!--行内标签：js的表单验证使用-->
+<span>span1</span>
+<span>span2</span><br />
+项目组织结构列表：
+<dl>
+	<dt>周一</dt>
+		<dd>语文</dd>
+		<dd>数学</dd>
+	<dt>周二</dt>
+		<dd>英语</dd>
+</dl>
+	</body>
+</html>
