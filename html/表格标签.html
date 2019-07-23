@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+<!--
+	table：表格标签（作用：表格标签进行网页布局）
+		border：边框大小
+		align：在浏览器中显示对齐方式
+		bgcolor：表格背景颜色
+		width/height:表格宽高
+		cellspacing：控制单元格和边框之间空隙
+		
+		行标签：tr
+		表头标签：th（自动居中加粗）
+		单元格标签：td
+		
+		应用：合并单元格（合并行rowspan、合并列colspan）
+-->
+	</head>
+	<body>
+<table border="1px" width="300px" align="center" bgcolor="blueviolet" cellspacing="0">
+	<tr>
+		<th>姓名</th>
+		<th>班级</th>
+		<th>平均成绩</th>
+	</tr>
+	<tr>
+		<td>A</td>
+		<td colspan="2">JAVA2</td>
+		<!--<td>80</td>-->
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<table>
+				<tr>
+					<td>Q</td>
+				</tr>
+				<tr>
+					<td>W</td>
+				</tr>
+			</table>
+		</td>
+		<td>JAVA1</td>
+		<td>70</td>
+	</tr>
+	<tr>
+		<!--<td>C</td>-->
+		<td>JAVA2</td>
+		<td>90</td>
+	</tr>
+</table>
+	</body>
+</html>
